@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="3dp"
+        android:id="@+id/cardku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/ivcover"
+            android:layout_width="140dp"
+            android:layout_height="200dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvjudul"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:text="makanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/release_date"
+            android:textStyle="italic"
+            android:paddingLeft="10dp"
+            android:text="makanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvdesc"
+                android:paddingLeft="10dp"
+                android:text="makanan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btdetail"
+                    android:text="detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btshare"
+                    android:text="share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

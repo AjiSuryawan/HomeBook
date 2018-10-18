@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movies List</string>
+
+
+    <string name="search">Search</string>
+    <string name="movie">Movies</string>
+    <string name="favorites">Favorites</string>
+    <string name="settings">Settings</string>
+    <string name="alert_text">Enter some text</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_show">Search</string>
+    <string name="lang">Change Language</string>
+    <string name="snackbar_text">search movie</string>
+
+    <string name="appwidget_text">Movie List Banner</string>
+    <string name="empty_text">NO DATA</string>
+</resources>

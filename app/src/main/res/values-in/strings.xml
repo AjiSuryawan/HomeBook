@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Aplikasi Film</string>
+
+
+    <string name="search">Cari</string>
+    <string name="movie">Film</string>
+    <string name="settings">Pengaturan</string>
+    <string name="alert_text">Ketikkan kata kunci</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_show">Search</string>
+    <string name="lang">Ganti Bahasa</string>
+    <string name="snackbar_text">cari Film</string>
+</resources>
